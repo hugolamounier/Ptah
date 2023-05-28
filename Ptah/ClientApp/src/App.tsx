@@ -1,11 +1,11 @@
 import React from 'react';
+import Layout from './shared/components/Layout';
+import Home from "./pages/Home";
 
-function App() {
-  return (
-    <div className="h-screen bg-black">
-      <span className="text-white">Hello</span>
-    </div>
-  );
-}
+const App = () => (
+  <Layout>
+    <Home />
+  </Layout>
+);
 
 export default App;
